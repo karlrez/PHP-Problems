@@ -6,9 +6,9 @@ and then selects all employees full name and address
 Tested on MySQL Workbench
  */
 
-DROP SCHEMA IF EXISTS `MyPassionMediaTest` ;
-CREATE SCHEMA IF NOT EXISTS `MyPassionMediaTest` DEFAULT CHARACTER SET utf8mb4 ;
-USE `MyPassionMediaTest` ;
+DROP SCHEMA IF EXISTS `KarlsTestSchema` ;
+CREATE SCHEMA IF NOT EXISTS `KarlsTestSchema` DEFAULT CHARACTER SET utf8mb4 ;
+USE `KarlsTestSchema` ;
 
 CREATE TABLE IF NOT EXISTS Employees (
 	employeeID int AUTO_INCREMENT,
